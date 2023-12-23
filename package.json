@@ -7,6 +7,7 @@
     "test": "jest",
     "build": "webpack",
     "start": "webpack serve --open",
+    "watch": "jest --watch *.js",
     "gh-create": "git add dist && git commit -m 'Initial dist subtree commit'",
     "gh-deploy": "git subtree push --prefix dist origin gh-pages",
     "prepare": "husky install"
